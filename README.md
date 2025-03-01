@@ -167,5 +167,3 @@ Contributions are welcome! Please submit a pull request for any changes you woul
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
-
-This documentation should provide a clear understanding of how to set up and use the code you provided. Adjust the `<repository-url>`, `<your-server-file>`, and other placeholders as necessary to fit your specific project.
