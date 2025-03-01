@@ -10,7 +10,6 @@ This project consists of two parts: a Node.js Express server that interacts with
 - [API Endpoints](#api-endpoints)
 - [Lua Module](#lua-module)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -162,8 +161,3 @@ Enums.Status = {
 ## Contributing
 
 Contributions are welcome! Please submit a pull request for any changes you would like to make.
-
-## License
-
-```
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
