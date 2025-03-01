@@ -57,29 +57,6 @@ app.post('/status', (req, res) => {
     }
 });
 
-app.get('/getserver/:guildId', async (req, res) => {
-    const { guildId } = req.params;
-
-    if (!client.isReady()) {
-        return res.status(503).json({ error: 'Bot is offline' });
-    }
-
-    const guild = client.guilds.cache.get(guildId);
-    
-    if (guild) {
-        res.json({
-            inServer: true,
-            guildId: guild.id,
-            botStatus: client.user.presence.status
-        });
-    } else {
-        res.json({
-            inServer: false,
-            guildId: guildId
-        });
-    }
-});
-
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
